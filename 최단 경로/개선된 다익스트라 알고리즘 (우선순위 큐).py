@@ -25,7 +25,7 @@ def dijkstra(start):
         if distance[now]<dist: 
             continue
 
-        for i in graph(now):
+        for i in graph[now]:
             cost = dist+i[1]
             if distance[i[0]] > cost:
                 distance[i[0]]=cost
