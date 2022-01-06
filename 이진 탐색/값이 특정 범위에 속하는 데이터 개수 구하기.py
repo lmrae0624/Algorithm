@@ -1,3 +1,4 @@
+# 정렬된 배열에서만 사용 가능
 from bisect import bisect_left,bisect_right
 
 def count_by_range(a,left_value,right_value):
