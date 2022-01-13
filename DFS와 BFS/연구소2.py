@@ -55,5 +55,4 @@ def score_count():
     return result
 
 dfs(0)
-print(tmp)
 print(result)
