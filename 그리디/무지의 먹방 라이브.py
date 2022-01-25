@@ -32,7 +32,7 @@ else:
     
     result=sorted(q,key=lambda x:x[1])
     print(q)
-    print(result[k-sum_time][1])   
+    print(result[k-sum_time][1])  #틀림 
         
 # 3 1 2
 # 5
