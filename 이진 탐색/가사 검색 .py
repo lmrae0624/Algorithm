@@ -6,6 +6,7 @@ queries=list(map(str,input().split()))
 for q in queries:
     before_q=list(q)
     q=list(q)
+    
     q.sort()
 
     right_index=bisect_right(q,'?')
@@ -27,7 +28,6 @@ for q in queries:
 # 입력 
 # frodo front frost frozen frame kakao
 # fro?? ????o fr??? fro??? pro?
-
 from bisect import bisect_left, bisect_right
 
 # 값이 [left_value, right_value]인 데이터의 개수를 반환하는 함수
