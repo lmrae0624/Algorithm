@@ -18,6 +18,7 @@ result=binary(array,target,0,n-1)
 print(result)
 
 
+
 # 입력 예시
 # 10 7
 # 1 3 5 7 9 11 15 17 19
