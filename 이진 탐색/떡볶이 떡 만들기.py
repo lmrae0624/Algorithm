@@ -20,6 +20,7 @@ def binary(array,target,start,end):
             answer=mid
             start=mid+1
         print(mid,start,end)
+        
     return answer
 
 mid=binary(array,m,0,max(array))
