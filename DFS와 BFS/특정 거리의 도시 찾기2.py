@@ -20,6 +20,7 @@ def bfs(start):
 
 bfs(x)
 
+
 if k not in distance:
     print(-1)
 else:
