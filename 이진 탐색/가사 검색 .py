@@ -6,7 +6,7 @@ queries=list(map(str,input().split()))
 for q in queries:
     before_q=list(q)
     q=list(q)
-    
+     
     q.sort()
 
     right_index=bisect_right(q,'?')
