@@ -11,6 +11,7 @@ def union_parent(parent,a,b):
     else:
         parent[a]=b
 
+
 v, e=map(int,input().split()) #노드, 간선(union 연산)
 parent=[0]*(v+1)
 
