@@ -8,6 +8,7 @@ for i in range(n):
 print(max_value)
 
 
+
 # 3 3
 # 3 1 2
 # 4 1 4
