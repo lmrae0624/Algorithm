@@ -27,6 +27,7 @@ for i in range(1,v+1):
     print(find_parent(parent,i),end=' ')
 print()
 
+
 print('부모 테이블:')
 print(parent[1:])
 
