@@ -33,6 +33,7 @@ for i in range(n):
 #             chicken.append((x,y))
 #     return result
 
+
 from itertools import combinations #조합
 candidates = list(combinations(chicken, m))
 
