@@ -41,3 +41,4 @@ print(solution(food_times, k))
 
 # 2 2 2
 # 3
+
