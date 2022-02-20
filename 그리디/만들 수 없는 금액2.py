@@ -9,6 +9,7 @@ for a in array:
     
     result+=a
 
+
 print(result)
 
 
