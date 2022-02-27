@@ -28,6 +28,7 @@ def dfs(index,x):
         div-=1
         dfs(index+1,int(x/number[index]))
         div+=1
+        
     
 
 dfs(1,number[0])
