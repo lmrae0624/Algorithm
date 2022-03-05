@@ -31,4 +31,5 @@ def solution(s):
     return len(answer)
 
 
+
 print(solution("aabbaccc"))
