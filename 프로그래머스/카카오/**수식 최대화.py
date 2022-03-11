@@ -54,5 +54,5 @@ def solution(expression):
         for e in expression.split(a):
             temp = [f"({i})" for i in e.split(b)]
             temp_list.append(f'({b.join(temp)})')
-        answer.append(abs(eval(a.join(temp_list))))
+        answer.append(abs(eval(a.join(temp_list)))) #eval: 문자열 수식을 계산해줌
     return max(answer)
