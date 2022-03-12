@@ -1,4 +1,4 @@
-#enumerate(): 함수는 기본적으로 인덱스와 원소로 이루어진 터플(tuple)을 만들어줍니다.
+#enumerate(): 함수는 기본적으로 인덱스와 원소로 이루어진 tuple형태로 반환
 for entry in enumerate(['A', 'B', 'C']):
     print(entry)
 # (0, 'A')
