@@ -6,6 +6,23 @@ while n > 0:
         n, mod = divmod(n, 3)
         tmp += str(mod)
 
+# n진법을 10진법으로 변환
+print(int('101',2)) 
+print(int('202',3))
+print(int('303',4))
+print(int('404',5))
+print(int('505',6))
+print(int('ACF',16))
+
+# 10진법을 변환
+print(bin(11)) #2진법
+print(oct(11)) #8진법
+print(hex(11)) #16진법
+
+print(bin(11)[2:])
+print(oct(11)[2:])
+print(hex(11)[2:])
+
 
 # n진수를 base진법으로 변환하는것 (중요!)
 def convert(n, base):
