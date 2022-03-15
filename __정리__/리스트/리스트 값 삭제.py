@@ -27,3 +27,8 @@ del array[-2:]
 array=[1,2,3,4]
 array.pop(-1) # = array.pop()
 # 1, 2, 3
+
+# list.remove(찾을아이템) / 찾을 아이템이 없으면 ValueError 발생
+a = [1,2,1,3,4,5,1] 
+a.remove(3)
+# [1,2,1,4,5,1] 
