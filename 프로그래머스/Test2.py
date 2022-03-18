@@ -71,3 +71,4 @@ def solution(n):
                 ci = ni
                 cj = nj
     return pane
+    
