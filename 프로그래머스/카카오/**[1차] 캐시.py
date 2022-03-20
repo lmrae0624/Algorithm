@@ -18,6 +18,7 @@ def solution(cacheSize, cities):
 
     return answer
 
+
 print(solution(3,["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"]))
 print(solution(2,["Jeju", "Pangyo", "NewYork", "newyork"]))
 print(solution(0,["Jeju", "Pangyo", "Seoul", "NewYork", "LA"]))
