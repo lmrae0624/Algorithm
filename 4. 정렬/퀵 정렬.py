@@ -8,14 +8,14 @@ def quick_sort(array,start,end):
     right=end
     
     while left<=right:
-        while left<=end and array[left]<=array[pivot]:
+        while left<=end and array[left]<=array[pivot]: #pivot보다 큰 값 찾기
             left+=1
-        while right>start and array[right]>=array[pivot]:
+        while right>start and array[right]>=array[pivot]: #pivot보다 작은 값 찾기
             right-=1
 
-        if left > right:
+        if left > right: # left랑 right 교차 됐을 때 pivot이랑 작은 값(right) 교체 
             array[pivot], array[right] = array[right], array[pivot]
-        else:
+        else: # left(큰 값)이랑 right(작은 값) 교체
             array[left], array[right] = array[right], array[left]
 
     quick_sort(array,start,right-1)
