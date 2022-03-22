@@ -4,7 +4,7 @@ INF=int(1e9)
 n, m=map(int,input().split())
 graph=[[INF]*(n+1) for _ in range(n+1)]
 
-for i in range(1, n+1):
+for i in range(1, n+1): # 자기 자신은 0으로 초기화
     for j in range(1, n+1):
         if i==j:
             graph[i][j]=0
@@ -17,7 +17,7 @@ for _ in range(m):
 for k in range(1,n+1):
     for i in range(1,n+1):
         for j in range(1,n+1):
-            graph[i][j]=min(graph[i][j],graph[i][k]+graph[k][j])
+            graph[i][j]=min(graph[i][j],graph[i][k]+graph[k][j]) # i->j 랑 i->k->j랑 비교
 
 for a in range(1, n + 1):
     for b in range(1, n + 1):

@@ -21,15 +21,15 @@ def dijkstra(start):
     while h:
         dist, now=heapq.heappop(h)
 
-        #현재 꺼낸 dist가 기존에 저장된 distance[now]보다 크면 이미 처리가 한번된거니까 무시
-        if distance[now]<dist: 
+        # 현재 꺼낸 dist가 기존에 저장된 distance[now]보다 크면 이미 처리가 한번된거니까 무시
+        if distance[now]<dist: # 같은 노드에 대해서 여러번 push될 수 있지만 pop은 우선 순위에 따라 꺼내오기 때문에 그 이후 것들은 무시
             continue
 
         for i in graph[now]:
             cost = dist+i[1]
             if distance[i[0]] > cost:
                 distance[i[0]]=cost
-                heapq.heappush(h,(cost,i[0]))
+                heapq.heappush(h,(cost,i[0])) # h에 now에서 갱신할 수 있는 노드에 대해서 (최단거리, 노드) push하기
 
 dijkstra(start)
 
