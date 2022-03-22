@@ -15,12 +15,13 @@ def union_parent(parent,a,b):
 v, e=map(int,input().split()) #노드, 간선(union 연산)
 parent=[0]*(v+1)
 
-for i in range(1,v+1):
+for i in range(1,v+1): # 부모 테이블에서 부모를 자기 자신으로 설정 
     parent[i]=i
 
-for i in range(e):
+for i in range(e): # union 연산 수행 
     a,b=map(int,input().split())
     union_parent(parent,a,b)
+
 
 print('각 원소가 속한 집합:')
 for i in range(1,v+1):
