@@ -1,3 +1,5 @@
+# 서로소 부분 집합들로 나누어진 원소들의 데이터를 처리하기 위한 자료 구조
+
 def find_parent(parent,x): #루트 노드 찾기
     if parent[x]!=x:
         parent[x]=find_parent(parent,parent[x])
