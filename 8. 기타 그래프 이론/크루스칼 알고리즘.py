@@ -43,7 +43,7 @@ edges.sort()
 for edge in edges:
     cost, a, b = edge
     # 사이클이 발생하지 않는 경우에만 집합에 포함
-    if find_parent(parent, a) != find_parent(parent, b):
+    if find_parent(parent, a) != find_parent(parent, b): #루트노드가 같다면 사이클 발생
         union_parent(parent, a, b)
         result += cost
 
