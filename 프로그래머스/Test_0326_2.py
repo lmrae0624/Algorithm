@@ -35,6 +35,7 @@ def solution(sentences, n):
     for key in list(combinations(array, n)): #key 조합
         answer=max(answer,check(sentences,key)) 
 
+
     return answer
 
 print(solution(["line in line", "LINE", "in lion"],5))
