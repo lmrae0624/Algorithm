@@ -1,3 +1,9 @@
+# 단순 개수 세기
+b = [1,3,4,2,3,5,2,3,9]
+print(b.count(2))
+# 2
+
+
 #collections.Counter(a) : a에서 요소들의 개수를 세어, 딕셔너리 형태로 반환합니다.  {문자 : 개수} 형태
 
 import collections
