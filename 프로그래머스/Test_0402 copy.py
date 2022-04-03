@@ -10,6 +10,7 @@ def solution(grid):
         len_string+=g
     len_check=min(len(set(len_string)),3)
 
+
     count=0
     for i in grid:
         count+=i.count('?')
