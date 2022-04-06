@@ -1,3 +1,4 @@
+# re.sub('찾을 패턴', '찾은 패턴을 변경할 내용', '원본')
 import re
 
 def solution(new_id):

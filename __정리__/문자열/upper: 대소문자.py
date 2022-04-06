@@ -18,3 +18,7 @@ print('{0} 대문자? : {1}'.format(s2, s2.isupper())) # True
 
 # 문자가 소문자인지 확인하는 방법
 s2.islower()
+
+#대문자 
+alpha='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+alpha='abcdefghijklmnopqrstuvwxyz'
