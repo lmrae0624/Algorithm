@@ -18,7 +18,7 @@ def solution(tickets):
             answer.append(stack.pop())
         else:
             stack.append(graph[target].pop())
-
+    answer.reverse()
     return answer
 
 print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
