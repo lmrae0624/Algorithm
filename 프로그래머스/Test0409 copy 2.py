@@ -16,6 +16,7 @@ def solution(tstring, variables):
             return check(first,change)
   
 
+
     for i in range(len(arr)):
         if arr[i][0]=="{" and arr[i][-1]=='}':
             arr[i]=check(arr[i],arr[i])
