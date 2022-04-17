@@ -15,5 +15,4 @@ def solution(n, works):
     return sum([i*i for i in h])
 
 print(solution(4,[4, 3, 3]))
-
 print(solution(1,[2, 1, 2]))
