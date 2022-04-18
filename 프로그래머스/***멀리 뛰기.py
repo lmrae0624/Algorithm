@@ -8,6 +8,4 @@ def solution(n):
 
     return d[n]
 
-
-
 print(solution(4))
