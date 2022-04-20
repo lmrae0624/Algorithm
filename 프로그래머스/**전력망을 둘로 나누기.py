@@ -17,6 +17,7 @@ def solution(n, wires):
       
         return cnt
 
+
     answer = n
     for i in range(n-2,-1,-1): 
         arr=wires.copy()
