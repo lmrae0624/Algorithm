@@ -14,6 +14,7 @@ def solution(n, wires):
                 if now in a or next in a:
                     q.append(a)
                     arr.remove(a)
+                    
       
         return cnt
 
