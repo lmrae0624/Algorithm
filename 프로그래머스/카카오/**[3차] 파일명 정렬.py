@@ -21,5 +21,6 @@ def solution(files):
     tmp = sorted(tmp, key=lambda x:(x[0].lower(), int(x[1])))
 
     return [''.join(i) for i in tmp]
+    
 
 print(solution(["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]))
