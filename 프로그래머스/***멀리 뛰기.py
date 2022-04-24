@@ -7,5 +7,6 @@ def solution(n):
         d[i]=(d[i-1]+d[i-2])%1234567
 
     return d[n]
+    
 
 print(solution(4))
