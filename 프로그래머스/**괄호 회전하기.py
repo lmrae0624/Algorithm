@@ -25,7 +25,7 @@ def solution(string):
 
     string = deque(list(string))
     for _ in range(len(string)):
-        string.rotate(1)
+        string.rotate(-1) #왼쪽으로 회전 
         if check(string):
             answer+=1
 
