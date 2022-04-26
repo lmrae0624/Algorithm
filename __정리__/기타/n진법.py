@@ -24,10 +24,10 @@ print(oct(11)[2:])
 print(hex(11)[2:])
 
 
-# n진수를 base진법으로 변환하는것 (중요!)
+# 10진법을 n진법으로 바꾸기
 def convert(n, base):
         arr = "0123456789ABCDEF"
-        q, r = divmod(n, base)
+        q, r = divmod(n, base) #정수를 나눈 몫과 나머지를 구하는 함수
         if q == 0:
             return arr[r]
         else:
