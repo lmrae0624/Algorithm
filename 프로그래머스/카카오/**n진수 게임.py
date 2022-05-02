@@ -9,7 +9,6 @@ def solution(n, t, m, p):
         else:
             return convert(q, base) + arr[r]
 
-
     arr=[]
     num=0
     while len(arr)<=t*m:
