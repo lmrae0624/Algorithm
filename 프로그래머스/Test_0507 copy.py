@@ -21,8 +21,9 @@ def solution(queue1, queue2):
         
         answer+=1
 
-        if answer>2**len(arr):
+        if list(q1)==queue2:
             return -1
+
 
     return answer
 
