@@ -31,7 +31,7 @@ def solution(info, edges):
                     path.append(n) 
                     # 최대 양 판별 
                     maxSheep = max(maxSheep, dfs(sheep, wolf, n, path)) 
-                    path.pop() 
+                    path.pop()
         return maxSheep 
     
     answer = dfs(0, 0, 0, [0]) 
