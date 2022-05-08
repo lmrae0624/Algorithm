@@ -24,7 +24,6 @@ def solution(queue1, queue2):
         if list(q1)==queue2:
             return -1
 
-
     return answer
 
 print(solution([3, 2, 7, 2],[4, 6, 5, 1]))
