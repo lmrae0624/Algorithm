@@ -18,7 +18,6 @@ def solution(queue1, queue2):
             q1.append(tmp)
             total2-=tmp
             total1+=tmp
-            
         
         answer+=1
 
