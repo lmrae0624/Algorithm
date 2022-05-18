@@ -7,6 +7,7 @@ def solution(survey, choices):
         if choices[i]==4:
             continue
         
+        
         if choices[i]<4:
             type[survey[i][0]]+=score[choices[i]]
         else:
