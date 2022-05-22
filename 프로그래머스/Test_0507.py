@@ -12,6 +12,7 @@ def solution(survey, choices):
         else:
             type[survey[i][1]]+=score[choices[i]]
 
+
     # 점수가 높은 지표 판별
     answer = ''
     order=[['R','T'],['C','F'],['J','M'],['A','N']]
