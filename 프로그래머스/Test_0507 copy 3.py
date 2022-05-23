@@ -37,6 +37,7 @@ def solution(n, paths, gates, summits):
             
         return result
     
+    
     answer = [0,int(1e9)]
     for gate in gates:
         num, intensity=check(gate)
