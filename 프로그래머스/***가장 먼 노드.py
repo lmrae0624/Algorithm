@@ -9,6 +9,7 @@ def solution(n, edge):
     visited = [0] * (n+1)
     q=deque([1])
     visited[1]=1
+    
     while q:
         start=q.popleft()
         for i in graph[start]:
